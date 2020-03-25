@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6fcbe1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnbuat"
+        android:layout_width="800px"
+        android:layout_height="200px"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#225e77"
+        android:fontFamily="casual"
+        android:singleLine="false"
+        android:text="Buat"
+        android:textColor="#ffb800"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnlihat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnlihat"
+        android:layout_width="800px"
+        android:layout_height="200px"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#225e77"
+        android:text="Lihat"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ffb800"
+        android:fontFamily="casual"
+        app:layout_constraintBottom_toTopOf="@+id/btnkeluar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="800px"
+        android:layout_height="200px"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="8dp"
+        android:background="#225e77"
+        android:fontFamily="casual"
+        android:text="Keluar"
+        android:textColor="#ffb800"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="230dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnbuat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Canote" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
